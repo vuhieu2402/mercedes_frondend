@@ -1,0 +1,423 @@
+.link,h3{
+    color:white;
+}
+
+.header{
+    margin-top: 0;
+    padding-top:0;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.qc{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight:0.5rem;
+}
+
+.header, .header2{
+    border-bottom: 1px solid #fff; /* Border dưới màu trắng */
+}
+
+.introduce {
+    display: block;
+    background-image: url(https://cdn1.tuoitre.vn/zoom/600_315/2022/6/1/2023-mercedes-amg-one-50-16540758313001931592617-crop-1654076708208572697811.jpg);
+    width: 100%; /* Thay đổi từ 1191px thành 100% */
+    height: 100vh; /* Thay đổi từ 544px thành 100vh */
+    background-repeat: no-repeat;
+    background-size: cover; /* Thêm thuộc tính background-size */
+    color: #ffffff;
+    filter: brightness(60%);
+}
+
+.info{
+    padding-top: 97px;
+    padding-left: 71px;
+}
+
+.content {
+    font-size:64px;
+    line-height: 72px;
+    text-align:left;
+    color:#ffffff;
+    margin-bottom: 32px;
+    filter: brightness(100%);
+}
+
+.btn{
+    margin-top:100px;
+    padding: 15px 20px;
+    margin-left: 71px;
+    font-size: 1.2rem;
+}
+
+.note{
+    background-color:#0a0909;
+    height: 250px;;
+}
+.note1{
+    color:#9f9f9f;
+    font-family:MBCorpo Text;
+    font-size:12px;
+    letter-spacing:0.225px;
+    line-height:16px;
+}
+.con{
+    margin-left: 71px;
+}
+
+.conte{
+    color:#ffffff;
+    font-family:MBCorpo Title;
+    font-size:48px;
+    line-height:60px;
+    margin-top:80px;
+}
+
+.contain{
+    margin-left:95px;
+    background-color:#0a0909;
+}
+
+.intro{
+    background-color:#0a0909;
+    position: relative;
+}
+.item{
+    background-color:#ffffff;
+    padding: 0;
+    height: 569px;
+    width: 322px;
+    margin:0 15px;
+}
+
+.img{
+    
+    height: 242px;
+    width: 322px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+
+.item-info{
+    padding:24px 24px 32px 32px;
+}
+.describe-1{
+    font-family:MBCorpo Text;
+    font-size:20px;
+    font-weight:700;
+    line-height:28px;
+    
+}
+.describe-2{
+    font-family:MBCorpo Text;
+    font-size:18px;
+    line-height:28px;
+    font-weight: 500;
+}
+
+.item-link{
+   
+    
+}
+
+.thongtin{
+    display: block;
+    height:172px;
+}
+
+.btn-link{
+    margin-top: 50px;
+    align-items:center;
+    text-decoration: none;
+    background-color:#0078d6;
+    border-radius:2px;
+    box-shadow:#ffffff 0px 0px 0px 1px;
+    color:#ffffff;
+    display:inline-flex;
+    font-family:MBCorpo Text;
+    font-weight:700;
+    justify-content:center;
+    letter-spacing:0.4px;
+    line-height:24px;
+    padding:11px 80px;
+    text-align:left;
+}
+
+.navigation{
+    width: 100%;
+    margin-top: -300px;
+    
+}
+
+.prev,
+.next {
+    border: none;
+    background-color: #f4eaea;
+    color: #191818;
+    
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.prev {
+    left:95px;
+}
+
+.next {
+    right: 0;
+}
+
+.slider-dots {
+    text-align: center;
+    margin-top: 320px;
+    padding-bottom: 50px;
+    
+}
+
+.slider-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slider-dots li button {
+    background-color: #ccc;
+    border: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider-dots li button.slick-active {
+    background-color: #413f3f; /* Replace with your desired active dot color */
+}
+
+.intro-car{
+    color:#333333;
+    font-family:MBCorpo Title;
+    font-size:48px;
+    line-height:60px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.all-car{
+    width: 90%;
+    
+    
+    align-items: center;
+}
+
+.btn-cont{
+    justify-content: space-between;
+    color: #ffffff;
+    border-color: none;
+    width: 100%;
+    align-items:center;
+    background-color:#333333;
+    border-radius:2px;
+    
+}
+
+.letter{
+    align-items:center;
+    font-family:Arial;
+    font-size:18px;
+    text-align: center;
+    margin:8px;
+}
+
+.link{
+    position: relative;
+}
+.menu{
+    
+    height: 420px;
+    width: 300px;
+    background-color: #ffffff;
+    margin-top: 117px;
+    margin-left: 84px;
+    border-radius: 4px;
+}
+
+.cancel{
+    display: flex;
+    justify-content:right;
+    color: #0a0909;
+    width: 100%;
+    height: 80px;
+    align-items:center;
+    padding-right: 15px;
+    font-size: 20px;
+
+}
+.category{
+    list-style: none;
+    color: #0a0909;
+    margin-top:20px;
+}
+.category-item{
+    display: flex;
+    justify-content:space-between;
+    margin-right:25px ;
+    height: 56px;
+    font-size:20px
+}
+.close{
+    background-color:#212529;;
+    color: #ffffff;
+    border: none;
+}
+
+.navbar-nav{
+    align-items:center;
+    color:#767676;
+    font-weight:700;
+    justify-content:center;
+    letter-spacing:0.4px;
+    line-height:24px;
+    margin:0px 8px;
+    padding:12px 16px;
+    text-align:center;
+}
+
+.name{
+    align-items:center;
+    color:#333333;
+    display:flex;
+    font-size:34px;
+    line-height:44px;
+    padding:0px 12px;
+}
+
+.car{
+    background-color:#f8f8f8;
+    border-radius:4px;
+    color:#333333;
+    display:flex;
+    flex-direction:column;
+    padding:48px 0px;
+    width: 325px;
+    height: 398px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+}
+.car-item__cont{
+    color:#333333;
+    padding:0px 24px;
+    height: 93px;
+}
+.car-item__img{
+    margin-top: 32px;
+    height: 160px;
+    width: 325px;
+}
+.car-item__name{
+    font-size:30px;
+    line-height:30px;
+}
+.car-item__price{
+    color:#9f9f9f;
+    margin:0px 0px 8px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #212529;
+    width:8px;
+    border-radius: 50%;
+    height: 8px;
+    margin-left:15px ;
+    margin-top: 0px;
+}
+
+.carousel-indicators{
+    margin-bottom: 0;
+}
+
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    width: 100%;
+}
+
+.sticky .select-con{
+  
+} 
+
+.info-cont{
+    color:#767676;
+    background-color: #f8f8f8;
+    font-family:MBCorpo Text;
+    line-height:24px;
+    padding: 10px 0px;
+    text-align:left;
+    border: 1px solid #111010;
+    
+}
+
+.info-title__1{
+    color:#333333;
+    font-size:18px;
+    font-weight:700;
+    line-height:28px;
+    text-align:left;
+}
+
+.info-title__2{
+    color:#767676;
+    line-height:24px;
+    text-align:left;
+}
+
+.icon{
+    color:#333333;
+    display:inline;
+    fill:#333333;
+    line-height:24px;
+    text-align:left;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.contact-cont__1{
+    color:#ffffff;
+    font-family:MBCorpo Text;
+    font-size:20px;
+    font-weight:700;
+    line-height:28px;
+    margin:0px 0px 8px;
+    text-align:left;
+}
+
+.contact-cont__2{
+    color:#9f9f9f;
+    font-family:MBCorpo Text;
+    line-height:24px;
+    margin:0px 0px 48px;
+    text-align:left;
+}
+
+.contact-dk{
+    
+}
